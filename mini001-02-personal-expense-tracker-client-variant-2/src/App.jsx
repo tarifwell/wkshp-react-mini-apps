@@ -37,7 +37,7 @@ function App() {
     <>
       <div>
         <h1>Welcome !</h1>
-        <ExpenseForm />
+        <ExpenseForm expenseItems={expenses} setExpenseItems={setExpenses} />
         <ExpenseFilter expenseItems={expenses} setExpenseItems={setExpenses} />
         <ExpenseList expenseItems={expenses} setExpenseItems={setExpenses} />
       </div>
